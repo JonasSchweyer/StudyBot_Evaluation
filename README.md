@@ -10,6 +10,12 @@ Die Kommunikation mit dem Projekt ist über den API-Client Bruno (https://www.us
 
 In der Evaluierung_StudyBot.xlsx sind die Ergebnisse der Untersuchung zusammengefasst.
 
+## API
+
+Es stehen 3 Endpunkte zur Verfügung, welche alle bereits im Bruno-Projekt eingerichtet sind. 
+
+Diese Endpunkte unterscheiden sich dabei in der Sprache, in der sie den Prompt an das Sprachmodell weiterleiten, und in der Sprache des Dokuments, das als Wissensgrundlage des Sprachmodells dient.
+
 ## Setup
 
-Für die Verwendung ist eine lokale PrivateGPT-Instanz notwendig. Das verwendete Sprachmodell für die Evaluierung ist Mistral 7B.
+Für die Verwendung ist eine lokale PrivateGPT-Instanz notwendig. Das verwendete Sprachmodell für die Evaluierung ist Mistral 7B mit Ollama.
