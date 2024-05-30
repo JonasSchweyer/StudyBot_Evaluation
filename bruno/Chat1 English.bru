@@ -1,0 +1,17 @@
+meta {
+  name: Chat1 English
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/api/messages/v1/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "prompt": "Wer ist mein Studiengangsleiter?"
+  }
+}

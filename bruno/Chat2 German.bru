@@ -1,0 +1,17 @@
+meta {
+  name: Chat2 German
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/messages/v2/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "prompt": "Wer ist mein Studiengangsleiter?"
+  }
+}

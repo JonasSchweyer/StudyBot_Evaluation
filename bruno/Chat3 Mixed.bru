@@ -1,0 +1,17 @@
+meta {
+  name: Chat3 Mixed
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8000/api/messages/v3/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "prompt": "Wer ist mein Studiengangsleiter?"
+  }
+}
